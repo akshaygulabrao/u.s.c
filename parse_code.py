@@ -20,19 +20,41 @@ def dfs(elem: ET.Element, depth: int = 0, file_handle: TextIO | None = None) -> 
         if file_handle is not None:
             file_handle.write(f"{num_text} {heading_text}\n")
 
-        # Find the <content> element
-        content = elem.find('.//{*}content')
-        if content is not None:
-            for p in content.iter():
-                if p.tag.split('}')[-1] == 'p' and p.text and p.text.strip():
-                    para_text = p.text.strip()
-                    if file_handle is not None:
-                        file_handle.write(f"{para_text}\n")
+        # Process subsections and content
+        for child in elem:
+            child_tag = child.tag.split('}')[-1]
+            if child_tag in {'subsection', 'paragraph', 'content', 'p'}:
+                write_element(child, depth + 1, file_handle)
 
-    # Continue DFS regardless of tag
+    else:
+        # Continue DFS for non-section elements
+        for child in elem:
+            dfs(child, depth, file_handle)
+
+# --- helper to write indented content ----------------------------------------
+def write_element(elem: ET.Element, depth: int, file_handle: TextIO | None) -> None:
+    tag = elem.tag.split('}')[-1]
+    indent = '    ' * depth
+
+    # Handle <num> and <heading> for subsections/paragraphs
+    num_elem = elem.find('.//{*}num')
+    heading_elem = elem.find('.//{*}heading')
+
+    num_text = num_elem.text.strip() if num_elem is not None and num_elem.text else ''
+    heading_text = heading_elem.text.strip() if heading_elem is not None and heading_elem.text else ''
+
+    if num_text or heading_text:
+        if file_handle is not None:
+            file_handle.write(f"{indent}{num_text} {heading_text}\n")
+
+    # Handle direct text in <content> or <p>
+    if elem.text and elem.text.strip():
+        if file_handle is not None:
+            file_handle.write(f"{indent}{elem.text.strip()}\n")
+
+    # Recurse into children
     for child in elem:
-        dfs(child, depth + 1, file_handle=file_handle)
-
+        write_element(child, depth + 1, file_handle)
 
 # --- run it ------------------------------------------------------------------
 with open('title1.txt', 'w', encoding='utf-8') as f:
