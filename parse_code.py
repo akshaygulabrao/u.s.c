@@ -1,12 +1,10 @@
 import xml.etree.ElementTree as ET
 from typing import TextIO
-
-# --- load the file -----------------------------------------------------------
-tree = ET.parse('xml_uscAll@119-23not21/usc01.xml')
-root = tree.getroot()
+from pathlib import Path
+import os
 
 # --- DFS helper --------------------------------------------------------------
-def dfs(elem: ET.Element, depth: int = 0, file_handle: TextIO | None = None) -> None:
+def dfs(elem: ET.Element, depth: int, file_handle: TextIO | None) -> None:
     tag = elem.tag.split('}')[-1]  # strip namespace
 
     if tag == 'section':
@@ -56,6 +54,45 @@ def write_element(elem: ET.Element, depth: int, file_handle: TextIO | None) -> N
     for child in elem:
         write_element(child, depth + 1, file_handle)
 
+# --- main processing function -------------------------------------------------
+def process_usc_title(title_num: int,
+                      xml_dir: str | Path = "xml_uscAll@119-23not21",
+                      out_dir: str | Path = ".") -> None:
+    """
+    Parse the XML file for a given U.S. Code title and write a flattened
+    text representation.
+
+    Parameters
+    ----------
+    title_num : int
+        The numeric identifier of the title (e.g., 34).
+    xml_dir : str | Path, optional
+        Directory containing the XML files (default: "xml_uscAll@119-23not21").
+    out_dir : str | Path, optional
+        Directory where the output .txt file will be written (default: ".").
+
+    Raises
+    ------
+    FileNotFoundError
+        If the expected XML file does not exist.
+    """
+    xml_dir = Path(xml_dir)
+    out_dir = Path(out_dir)
+
+    input_file = xml_dir / f"usc{title_num:02d}.xml"
+    output_file = out_dir / f"usc{title_num:02d}.txt"
+
+    if not input_file.is_file():
+        raise FileNotFoundError(input_file)
+
+    tree = ET.parse(input_file)
+    root = tree.getroot()
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        dfs(root, depth=0, file_handle=f)
+
 # --- run it ------------------------------------------------------------------
-with open('title1.txt', 'w', encoding='utf-8') as f:
-    dfs(root, file_handle=f)
+if __name__ == "__main__":
+    title_num = 34
+    process_usc_title(title_num)
