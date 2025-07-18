@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 from typing import TextIO
 from pathlib import Path
-import os
 
 # --- DFS helper --------------------------------------------------------------
 def dfs(elem: ET.Element, depth: int, file_handle: TextIO | None) -> None:
@@ -94,5 +93,7 @@ def process_usc_title(title_num: int,
 
 # --- run it ------------------------------------------------------------------
 if __name__ == "__main__":
-    title_num = 34
-    process_usc_title(title_num)
+    for title_num in range(1,55):
+        # weird exceptions
+        if title_num == 53: continue
+        process_usc_title(title_num)
