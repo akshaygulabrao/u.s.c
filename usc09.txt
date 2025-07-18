@@ -17,50 +17,37 @@
 § 9. Award of arbitrators; confirmation; jurisdiction; procedure
         If the parties in their agreement have agreed that a judgment of the court shall be entered upon the award made pursuant to the arbitration, and shall specify the court, then at any time within one year after the award is made any party to the arbitration may apply to the court so specified for an order confirming the award, and thereupon the court must grant such an order unless the award is vacated, modified, or corrected as prescribed in sections 10 and 11 of this title. If no court is specified in the agreement of the parties, then such application may be made to the United States court in and for the district within which such award was made. Notice of the application shall be served upon the adverse party, and thereupon the court shall have jurisdiction of such party as though he had appeared generally in the proceeding. If the adverse party is a resident of the district within which the award was made, such service shall be made upon the adverse party or his attorney as prescribed by law for service of notice of motion in an action in the same court. If the adverse party shall be a nonresident, then the notice of the application shall be served by the marshal of any district within which the adverse party may be found in like manner as other process of the court.
 § 10. Same; vacation; grounds; rehearing
-    (a) 
         (a)
         In any of the following cases the United States court in and for the district wherein the award was made may make an order vacating the award upon the application of any party to the arbitration—
-        (1) 
             (1)
             where the award was procured by corruption, fraud, or undue means;
-        (2) 
             (2)
             where there was evident partiality or corruption in the arbitrators, or either of them;
-        (3) 
             (3)
             where the arbitrators were guilty of misconduct in refusing to postpone the hearing, upon sufficient cause shown, or in refusing to hear evidence pertinent and material to the controversy; or of any other misbehavior by which the rights of any party have been prejudiced; or
-        (4) 
             (4)
             where the arbitrators exceeded their powers, or so imperfectly executed them that a mutual, final, and definite award upon the subject matter submitted was not made.
-    (b) 
         (b)
         If an award is vacated and the time within which the agreement required the award to be made has not expired, the court may, in its discretion, direct a rehearing by the arbitrators.
-    (c) 
         (c)
         The United States district court for the district wherein an award was made that was issued pursuant to
             section 580 of title 5
             section 572 of title 5
 § 11. Same; modification or correction; grounds; order
-    (a) 
         (a)
         Where there was an evident material miscalculation of figures or an evident material mistake in the description of any person, thing, or property referred to in the award.
-    (b) 
         (b)
         Where the arbitrators have awarded upon a matter not submitted to them, unless it is a matter not affecting the merits of the decision upon the matter submitted.
-    (c) 
         (c)
         Where the award is imperfect in matter of form not affecting the merits of the controversy.
             The order may modify and correct the award, so as to effect the intent thereof and promote justice between the parties.
 § 12. Notice of motions to vacate or modify; service; stay of proceedings
         Notice of a motion to vacate, modify, or correct an award must be served upon the adverse party or his attorney within three months after the award is filed or delivered. If the adverse party is a resident of the district within which the award was made, such service shall be made upon the adverse party or his attorney as prescribed by law for service of notice of motion in an action in the same court. If the adverse party shall be a nonresident then the notice of the application shall be served by the marshal of any district within which the adverse party may be found in like manner as other process of the court. For the purposes of the motion any judge who might make an order to stay the proceedings in an action brought in the same court may make an order, to be served with the notice of motion, staying the proceedings of the adverse party to enforce the award.
 § 13. Papers filed with order on motions; judgment; docketing; force and effect; enforcement
-    (a) 
         (a)
         The agreement; the selection or appointment, if any, of an additional arbitrator or umpire; and each written extension of the time, if any, within which to make the award.
-    (b) 
         (b)
         The award.
-    (c) 
         (c)
         Each notice, affidavit, or other paper used upon an application to confirm, modify, or correct the award, and a copy of each order of the court upon such an application.
             The judgment shall be docketed as if it was rendered in an action.
@@ -71,53 +58,39 @@
 § 15. Inapplicability of the Act of State doctrine
         Enforcement of arbitral agreements, confirmation of arbitral awards, and execution upon judgments based on orders confirming such awards shall not be refused on the basis of the Act of State doctrine.
 § 16. Appeals
-    (a) 
         (a)
         An appeal may be taken from—
-        (1) 
             (1)
             an order—
-            (A) 
                 (A)
                 refusing a stay of any action under
                     section 3 of this title
-            (B) 
                 (B)
                 denying a petition under
                     section 4 of this title
-            (C) 
                 (C)
                 denying an application under
                     section 206 of this title
-            (D) 
                 (D)
                 confirming or denying confirmation of an award or partial award, or
-            (E) 
                 (E)
                 modifying, correcting, or vacating an award;
-        (2) 
             (2)
             an interlocutory order granting, continuing, or modifying an injunction against an arbitration that is subject to this title; or
-        (3) 
             (3)
             a final decision with respect to an arbitration that is subject to this title.
-    (b) 
         (b)
         Except as otherwise provided in
             section 1292(b) of title 28
-        (1) 
             (1)
             granting a stay of any action under
                 section 3 of this title
-        (2) 
             (2)
             directing arbitration to proceed under
                 section 4 of this title
-        (3) 
             (3)
             compelling arbitration under
                 section 206 of this title
-        (4) 
             (4)
             refusing to enjoin an arbitration that is subject to this title.
 § 201. Enforcement of Convention
@@ -146,57 +119,45 @@
 § 302. Incorporation by reference
         Sections 202, 203, 204, 205, and 207 of this title shall apply to this chapter as if specifically set forth herein, except that for the purposes of this chapter “the Convention” shall mean the Inter-American Convention.
 § 303. Order to compel arbitration; appointment of arbitrators; locale
-    (a) 
         (a)
         A court having jurisdiction under this chapter may direct that arbitration be held in accordance with the agreement at any place therein provided for, whether that place is within or without the United States. The court may also appoint arbitrators in accordance with the provisions of the agreement.
-    (b) 
         (b)
         In the event the agreement does not make provision for the place of arbitration or the appointment of arbitrators, the court shall direct that the arbitration shall be held and the arbitrators be appointed in accordance with Article 3 of the Inter-American Convention.
 § 304. Recognition and enforcement of foreign arbitral decisions and awards; reciprocity
         Arbitral decisions or awards made in the territory of a foreign State shall, on the basis of reciprocity, be recognized and enforced under this chapter only if that State has ratified or acceded to the Inter-American Convention.
 § 305. Relationship between the Inter-American Convention and the Convention on the Recognition and Enforcement of Foreign Arbitral Awards of
-    (1) 
         (1)
         If a majority of the parties to the arbitration agreement are citizens of a State or States that have ratified or acceded to the Inter-American Convention and are member States of the Organization of American States, the Inter-American Convention shall apply.
-    (2) 
         (2)
         In all other cases the Convention on the Recognition and Enforcement of Foreign Arbitral Awards of
             June 10, 1958
 § 306. Applicable rules of Inter-American Commercial Arbitration Commission
-    (a) 
         (a)
         For the purposes of this chapter the rules of procedure of the Inter-American Commercial Arbitration Commission referred to in Article 3 of the Inter-American Convention shall, subject to subsection (b) of this section, be those rules as promulgated by the Commission on
             July 1, 1988
-    (b) 
         (b)
         In the event the rules of procedure of the Inter-American Commercial Arbitration Commission are modified or amended in accordance with the procedures for amendment of the rules of that Commission, the Secretary of State, by regulation in accordance with
             section 553 of title 5
 § 307. Application
         Chapter 1 applies to actions and proceedings brought under this chapter to the extent chapter 1 is not in conflict with this chapter or the Inter-American Convention as ratified by the United States. This chapter applies to the extent that this chapter is not in conflict with chapter 4.
 § 401. Definitions
-    (1) 
         (1)
             Predispute arbitration agreement
         The term “predispute arbitration agreement” means any agreement to arbitrate a dispute that had not yet arisen at the time of the making of the agreement.
-    (2) 
         (2)
             Predispute joint-action waiver
         The term “predispute joint-action waiver” means an agreement, whether or not part of a predispute arbitration agreement, that would prohibit, or waive the right of, one of the parties to the agreement to participate in a joint, class, or collective action in a judicial, arbitral, administrative, or other forum, concerning a dispute that has not yet arisen at the time of the making of the agreement.
-    (3) 
         (3)
             Sexual assault dispute
         The term “sexual assault dispute” means a dispute involving a nonconsensual sexual act or sexual contact, as such terms are defined in
             section 2246 of title 18
-    (4) 
         (4)
             Sexual harassment dispute
         The term “sexual harassment dispute” means a dispute relating to conduct that is alleged to constitute sexual harassment under applicable Federal, Tribal, or State law.
 § 402. No validity or enforceability
-    (a) 
         (a)
             In General
         Notwithstanding any other provision of this title, at the election of the person alleging conduct constituting a sexual harassment dispute or sexual assault dispute, or the named representative of a class or in a collective action alleging such conduct, no predispute arbitration agreement or predispute joint-action waiver shall be valid or enforceable with respect to a case which is filed under Federal, Tribal, or State law and relates to the sexual assault dispute or the sexual harassment dispute.
-    (b) 
         (b)
             Determination of Applicability
         An issue as to whether this chapter applies with respect to a dispute shall be determined under Federal law. The applicability of this chapter to an agreement to arbitrate and the validity and enforceability of an agreement to which this chapter applies shall be determined by a court, rather than an arbitrator, irrespective of whether the party resisting arbitration challenges the arbitration agreement specifically or in conjunction with other terms of the contract containing such agreement, and irrespective of whether the agreement purports to delegate such determinations to an arbitrator.
